@@ -71,6 +71,34 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
+
+
+                        <li class="nav-item pl-1">
+                            <a href="{{ url('admin/order/')}}" class="nav-link">
+                                <i class="fas fa-shopping-bag"></i>
+                                <p>Đơn hàng</p>
+                            </a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a href="{{ url('admin/booking/')}}" class="nav-link">
+                                <i class="fa-solid fa-clipboard"></i>
+                                <p>Đặt bàn</p>
+                            </a>
+                        </li>
+                        <li class="nav-item pl-1">
+                            <a href="{{ url('admin/inquiries/')}}" class="nav-link">
+                                <i class="fa-solid fa-comment"></i>
+                                <p>Tư vấn</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item pl-1">
+                            <a href="{{ url('admin/contact/')}}" class="nav-link">
+                                <i class="fas fa-id-card"></i>
+                                <p>Liên hệ</p>
+                            </a>
+                        </li>
+
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fa-solid fa-utensils ml-2"></i>
@@ -123,30 +151,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a href="{{ url('admin/order/')}}" class="nav-link">
-                                <i class="fas fa-shopping-bag"></i>
-                                <p>Đơn hàng</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ url('admin/booking/')}}" class="nav-link">
-                                <i class="fa-solid fa-clipboard"></i>
-                                <p>Đặt bàn</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ url('admin/inquiries/')}}" class="nav-link">
-                                <i class="fa-solid fa-comment"></i>
-                                <p>Tư vấn</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ url('admin/contact/')}}" class="nav-link">
-                                <i class="fas fa-id-card"></i>
-                                <p>Liên hệ</p>
-                            </a>
-                        </li>
+                        
+                        
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fa-solid fa-warehouse ml-1"></i>
@@ -252,25 +258,9 @@
                                 </li> --}}
                             </ul>
                         </li>
-                        <li class="nav-header">LABELS</li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-circle text-danger"></i>
-                                <p class="text">Important</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-circle text-warning"></i>
-                                <p>Warning</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-circle text-info"></i>
-                                <p>Informational</p>
-                            </a>
-                        </li>
+
+                        
+                        
                     </ul>
                 </nav>
             </div>
