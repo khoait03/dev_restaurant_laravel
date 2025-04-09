@@ -1,4 +1,4 @@
-# Website nhà hàng quán ăn
+# Website nhà hàng quán ăn 9/6
 
 ## Phạm vi dự án
 
@@ -10,7 +10,26 @@
 
 -   Admin: admin@gmail.com - admin123456
 
+#### Video Demo
+-   YTB: 
 
+### Thực đơn
+<img src="https://raw.githubusercontent.com/khoait03/dev_restaurant_laravel/main/public/github/laravel_restaurant_dev-thuc-don.png" alt="Job Demo" width="900">
+
+### Chi tiết
+<img src="https://raw.githubusercontent.com/khoait03/dev_restaurant_laravel/main/public/github/laravel-restaurant-dev-ct-san-pham.png" alt="Job Demo" width="900">
+
+### Giỏ hàng
+<img src="https://raw.githubusercontent.com/khoait03/dev_restaurant_laravel/main/public/github/laravel-restaurant-dev-gio-hang.png" alt="Job Demo" width="900">
+
+### Admin: danh sách món ăn
+<img src="https://raw.githubusercontent.com/khoait03/dev_restaurant_laravel/main/public/github/laravel_restaurant_dev-admin-ds-mon-an.png" alt="Job Demo" width="900">
+
+### Admin: quản lý Menu widget
+<img src="https://raw.githubusercontent.com/khoait03/dev_restaurant_laravel/main/public/github/laravel_restaurant_dev-admin-menu.png" alt="Job Demo" width="900">
+
+
+### Setup
 1. Clone repository
 
 2. Cài đặt các phụ thuộc:
