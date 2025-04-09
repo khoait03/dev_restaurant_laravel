@@ -42,6 +42,7 @@ use App\Http\Controllers\backend\InquiryController;
 
 use App\Http\Controllers\auth\AuthController;
 
+Route::group(['middleware' => 'license'], function () {
 //user
 Route::get('/admin/login',[AuthController::Class,'login'])->name('admin.login');
 Route::post('/admin/login',[AuthController::Class,'dologin'])->name('admin.dologin');
@@ -317,3 +318,10 @@ Route::prefix("admin")->middleware('login-admin')->group(function () {
     });
 
 });
+
+});
+
+
+Route::get('/themeforest', function() {
+    return view('vendor.license.index');
+})->name('license');

@@ -16,6 +16,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->appendToGroup('login-admin',[
             LoginAdmin::class,
         ]);
+
+        $middleware->alias([
+            'license' => \App\Http\Middleware\CheckLin::class,
+        ]);
     })
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->appendToGroup('admin-access',[
